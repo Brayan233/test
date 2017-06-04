@@ -8,10 +8,7 @@ function getLinks() {
     });
 }
 
-casper.start('https://www.leboncoin.fr/telephonie/offres/ile_de_france/?th=1&parrot=0', function() {
-   // Wait for the page to be loaded
-   this.waitForSelector('list');
-});
+casper.start('https://www.leboncoin.fr/telephonie/offres/ile_de_france/?th=1&parrot=0');
 
 
 
